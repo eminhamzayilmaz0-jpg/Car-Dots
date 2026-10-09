@@ -9,11 +9,11 @@ import android.view.View
 class DotsView(context: Context) : View(context) {
 
     private val d = resources.displayMetrics.density
-    private val fill = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = Color.argb(210, 255, 255, 255) }
+    private val fill = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = Color.argb(255, 255, 255, 255) }
     private val ring = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.STROKE
         strokeWidth = 1.5f * d
-        color = Color.argb(140, 0, 0, 0)
+        color = Color.argb(180, 0, 0, 0)
     }
     private val maxOff = 60f * d
 
